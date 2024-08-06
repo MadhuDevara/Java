@@ -51,3 +51,12 @@ public class ReverseNumber {
 		
 	}
 }
+
+
+/*Summary
+ * 
+ * This program reads an integer from the user, reverses the digits of the
+ * number, and prints the reversed number. The main steps involve using a
+ * Scanner object to get the user input, using a while loop to reverse the
+ * number, and printing the result.
+ */
