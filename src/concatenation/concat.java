@@ -1,4 +1,4 @@
-package concatenation.Java;
+package concatenation;
 
 public class concat {
 

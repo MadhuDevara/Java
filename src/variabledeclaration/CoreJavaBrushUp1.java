@@ -1,5 +1,5 @@
 // what is this code 
-package variabledeclaration.java;
+package variabledeclaration;
 
 public class CoreJavaBrushUp1 {
 

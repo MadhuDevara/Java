@@ -1,6 +1,6 @@
 //Converts name string to a new character array.
 
-package arraylist.java;
+package arraylist;
 
 import java.util.Arrays;
 

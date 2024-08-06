@@ -1,4 +1,4 @@
-package strings.java;
+package strings;
 
 public class stringfunctions {
 
