@@ -1,15 +1,13 @@
-
 // Explain the below in detail
 
-package Numbers;
+package numbers;
 
 import java.util.Scanner;
 
 public class NumberSwapping {
 
 	public static void main(String[] args) {
-		
-		
+				
         // Create a Scanner object to read input
 		Scanner scanner = new Scanner(System.in);
 
@@ -38,6 +36,7 @@ public class NumberSwapping {
 		
         // Close the scanner object
 		scanner.close();
+		
 	}
 
 }

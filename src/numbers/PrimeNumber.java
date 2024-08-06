@@ -1,6 +1,6 @@
 // Java program to find prime number
 
-package Numbers;
+package numbers;
 
 import java.util.Scanner;
 
