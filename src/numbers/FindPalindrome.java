@@ -47,4 +47,5 @@ public class FindPalindrome {
  * 
  * This program effectively checks whether a given number is a palindrome by
  * reversing the number and comparing it with the original number.
+ * 121,133,12321,45654,98789
  */
