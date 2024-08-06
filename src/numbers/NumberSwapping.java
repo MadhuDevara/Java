@@ -1,4 +1,4 @@
-// Explain the below in detail
+// Java program to swap two numbers without using third variable
 
 package numbers;
 
