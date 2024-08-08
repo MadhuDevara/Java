@@ -1,20 +1,19 @@
 // Java program to print unqiue characters
+	
+	/*Explanation of the Java Program
+	  This Java program reads a string input from the
+	  user and prints the unique characters in the string. 
+	  It uses a boolean array to track the occurrence of characters.
+	*/
 
-/*Explanation of the Java Program
-  This Java program reads a string input from the
-  user and prints the unique characters in the string. 
-  It uses a boolean array to track the occurrence of characters.
-*/
-
-
-package numbers;
+package strings;
 
 import java.util.Scanner;
 
-/*
-  import Statement: This imports the Scanner class from the java.util package,
-  which is used for reading user input.
-*/
+	/*
+	  import Statement: This imports the Scanner class from the java.util package,
+	  which is used for reading user input.
+	*/
 
 public class PrintUnqiueCharacters {
 
@@ -52,7 +51,6 @@ public class PrintUnqiueCharacters {
 		
 		*/
 		
-		
 	boolean[]	unique = new boolean[128];
 	
 	for (int i = 0; i < str.length(); i++) {
@@ -66,20 +64,28 @@ public class PrintUnqiueCharacters {
 }
 
 
-/*
-Detailed Explanation of the Process
-Initial Input
-
-    User is prompted to enter a string.
-    Example input: "Hello World"
-
-Variable Initialization
-
-    Scanner scanner = new Scanner(System.in);
-    String input = scanner.nextLine();
-    boolean[] unique = new boolean[128]; (all values initially false)
-
-Iteration Over Characters
+	
+	/*OUTPUT
+		Enter a string
+		Hello world
+		Unique characters in" Hello world":
+		H e l o   w r d 
+	*/
+			
+	/*
+	Detailed Explanation of the Process
+	Initial Input
+	
+	    User is prompted to enter a string.
+	    Example input: "Hello World"
+	
+	Variable Initialization
+	
+	    Scanner scanner = new Scanner(System.in);
+	    String input = scanner.nextLine();
+	    boolean[] unique = new boolean[128]; (all values initially false)
+	
+	Iteration Over Characters
 
     First Iteration (ch = 'H'):
         unique['H'] is false
@@ -130,4 +136,4 @@ Iteration Over Characters
         It iterates over the characters in the string, printing each unique character only once.
         The program assumes the use of ASCII characters for simplicity.
 
-*/        
+	 */        

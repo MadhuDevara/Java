@@ -2,7 +2,7 @@
 // string. It prints the counts of vowels and consonants separately.
  
 
-package numbers;
+package strings;
 
 public class CountVowelsConsonants {
 
