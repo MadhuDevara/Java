@@ -7,15 +7,19 @@ public class FindAllPermutations {
 		permute(str, "");
 	}
 
+	// permute Method: This is a recursive method that generates all permutations 
+	// of the string str. The prefix parameter keeps track of the current permutation being built.
+
 	static void permute(String str, String prefix) {
 	
-		//permute Method: This is a recursive method that generates all permutations of the string str. The prefix parameter keeps track of the current permutation being built.
 		if(str.length()==0) 
 		{
 			System.out.println(prefix);
 		}
 		
-		//Base Case: If str is empty, it means a permutation has been fully formed. The method prints the current permutation stored in prefix.
+		//Base Case: If str is empty, it means a permutation has been fully formed.
+		//The method prints the current permutation stored in prefix.
+	
 		else
 		{
 			for(int i=0; i< str.length(); i++) 
