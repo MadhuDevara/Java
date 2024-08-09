@@ -17,7 +17,8 @@ public class PrintEachLetterTwice {
 		// The program reads the entire line of text entered by the user and stores it in the variable input.
 		String input = scanner.nextLine();
 		
-		// The doubleCharacters method is called with the input string as an argument. This method returns a new string where each character from the original string is repeated twice, and the result is stored in doubledString.
+		// The doubleCharacters method is called with the input string as an argument. This method returns a new string where each character 
+		// from the original string is repeated twice, and the result is stored in doubledString.
 		String doubledString = doubleCharacters(input);
 		
 		//The program prints the new string with doubled characters.
@@ -31,8 +32,8 @@ public class PrintEachLetterTwice {
 		StringBuilder doubled = new StringBuilder();
 
 		//A for loop is used to iterate through each character in the string str.
-		for(int i=0;i<str.length();i++) {
-			
+		for(int i=0;i<str.length();i++) 
+		{
 			//The program retrieves the character at index i, stores it in the variable ch, and appends it twice to the StringBuilder object doubled.
 			char ch = str.charAt(i);
 			doubled.append(ch).append(ch);//Append each character twice
@@ -43,13 +44,14 @@ public class PrintEachLetterTwice {
 	}
 }
 
-/*
-Summary:
-This program demonstrates how to manipulate strings by iterating through each character and appending it twice to create a new string. The use of StringBuilder makes this approach efficient, especially for longer strings. 
-This program is useful for tasks where you need to repeat or emphasize each character in a string.
-
-Enter a String: 
-Hello
-Doubled characters: HHeelllloo
-
-*/
+	/*
+	 
+	Summary:
+	This program demonstrates how to manipulate strings by iterating through each character and appending it twice to create a new string. The use of StringBuilder makes this approach efficient, especially for longer strings. 
+	This program is useful for tasks where you need to repeat or emphasize each character in a string.
+	
+	Enter a String: 
+	Hello
+	Doubled characters: HHeelllloo
+	
+	*/
