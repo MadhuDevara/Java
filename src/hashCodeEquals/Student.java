@@ -1,3 +1,5 @@
+// 
+
 package hashCodeEquals; //Explanation: This line declares the package name of the class. In Java, a package is a namespace that organizes a set of related classes and interfaces. Here, the Student class belongs to the arrays package.
 
 import java.util.Objects; // This line imports the Objects class from the java.util package. The Objects class contains utility methods for operating on objects, such as checking equality, generating hash codes, etc.
@@ -43,8 +45,7 @@ public class Student { // This line defines the Student class as a public class,
 		// Testing equals method
 		System.out.println("student.equals(student2): " + student1.equals(student2)); // Output: false
 		System.out.println("student.equals(student3): " + student1.equals(student3)); // Output: true
-		
-		
+				
 		//Testing hashCode method
 		System.out.println("Hashcode of student1: "+ student1.hashCode());
 		System.out.println("Hashcode of student2: "+ student2.hashCode());
