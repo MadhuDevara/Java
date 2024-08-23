@@ -44,7 +44,9 @@ public class FindPalindrome {
 }
 
 /*SUMMARTY:
- * 
+ * A palindrome is a sequence that reads the same backward as forward. In Java,
+ * you can check whether a string is a palindrome by comparing it with its reverse. Here's a simple explanation and
+ *
  * This program effectively checks whether a given number is a palindrome by
  * reversing the number and comparing it with the original number.
  * 121,133,12321,45654,98789
