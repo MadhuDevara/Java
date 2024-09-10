@@ -8,7 +8,7 @@ public class CharArray {
 
 	public static void main(String[] args) {
 
-		String name = "Selenium";
+		String name = "Selenium-Automation";
 		
 		char a1[]= name.toCharArray();
 		
