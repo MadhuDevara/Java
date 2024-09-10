@@ -5,7 +5,7 @@ public class PS {
 	//METHODS,VARIABLES
 	public void dothis() 
 	{
-		System.out.println("I am here");
+		System.out.println("I am not here");
 	}
 
 	@BeforeMethod
